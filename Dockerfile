@@ -14,7 +14,7 @@ RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Deluge version.
-ARG DELUGE_VERSION=1.3.13
+ARG DELUGE_VERSION=1.3.15
 
 # Install Deluge.
 WORKDIR /
