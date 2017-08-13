@@ -1,7 +1,7 @@
 # Sets up a Deluge server and web client.
 
 FROM resin/rpi-raspbian:jessie
-MAINTAINER Jordan Crawford <jordan@crawford.kiwi>
+MAINTAINER Timur Fatykhov <tfatykhov@gmail.com>
 
 # Install required packages.
 RUN apt-get update; apt-get install wget python python-twisted python-openssl python-setuptools intltool python-xdg python-chardet geoip-database python-libtorrent python-notify python-pygame python-glade2 librsvg2-common xdg-utils python-mako -y
